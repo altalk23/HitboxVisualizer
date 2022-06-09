@@ -1,0 +1,148 @@
+{
+	"build_systems":
+	[
+		{
+			"file_regex": "(.+[^:]):(\\d+):(\\d+): (?:fatal )?((?:error|warning): .+)$",
+			"name": "HitboxVisualizer (OSX)",
+			"shell_cmd": "make -j4",
+			"syntax": "Packages/CMakeBuilder/Syntax/Make.sublime-syntax",
+			"variants":
+			[
+				{
+					"name": "clean",
+					"shell_cmd": "make -j4 clean",
+				},
+				{
+					"name": "rebuild_cache",
+					"shell_cmd": "make -j4 rebuild_cache",
+				},
+				{
+					"name": "CodegenRun",
+					"shell_cmd": "make -j4 CodegenRun",
+				},
+				{
+					"name": "Codegen",
+					"shell_cmd": "make -j4 Codegen",
+				},
+				{
+					"name": "HitboxVisualizer",
+					"shell_cmd": "make -j4 HitboxVisualizer",
+				},
+				{
+					"name": "fmt",
+					"shell_cmd": "make -j4 fmt",
+				},
+				{
+					"name": "Users/student/Desktop/Storage/Geode/suite/sdk/entry.o",
+					"shell_cmd": "make -j4 Users/student/Desktop/Storage/Geode/suite/sdk/entry.o",
+				},
+				{
+					"name": "Users/student/Desktop/Storage/Geode/suite/sdk/entry.i",
+					"shell_cmd": "make -j4 Users/student/Desktop/Storage/Geode/suite/sdk/entry.i",
+				},
+				{
+					"name": "Users/student/Desktop/Storage/Geode/suite/sdk/entry.s",
+					"shell_cmd": "make -j4 Users/student/Desktop/Storage/Geode/suite/sdk/entry.s",
+				},
+				{
+					"name": "cmake_pch.hxx.pch",
+					"shell_cmd": "make -j4 cmake_pch.hxx.pch",
+				},
+				{
+					"name": "cmake_pch.hxx.i",
+					"shell_cmd": "make -j4 cmake_pch.hxx.i",
+				},
+				{
+					"name": "cmake_pch.hxx.s",
+					"shell_cmd": "make -j4 cmake_pch.hxx.s",
+				},
+				{
+					"name": "codegen/GeneratedSource.o",
+					"shell_cmd": "make -j4 codegen/GeneratedSource.o",
+				},
+				{
+					"name": "codegen/GeneratedSource.i",
+					"shell_cmd": "make -j4 codegen/GeneratedSource.i",
+				},
+				{
+					"name": "codegen/GeneratedSource.s",
+					"shell_cmd": "make -j4 codegen/GeneratedSource.s",
+				},
+				{
+					"name": "src/Hitbox.o",
+					"shell_cmd": "make -j4 src/Hitbox.o",
+				},
+				{
+					"name": "src/Hitbox.i",
+					"shell_cmd": "make -j4 src/Hitbox.i",
+				},
+				{
+					"name": "src/Hitbox.s",
+					"shell_cmd": "make -j4 src/Hitbox.s",
+				},
+				{
+					"name": "src/HitboxHooks.o",
+					"shell_cmd": "make -j4 src/HitboxHooks.o",
+				},
+				{
+					"name": "src/HitboxHooks.i",
+					"shell_cmd": "make -j4 src/HitboxHooks.i",
+				},
+				{
+					"name": "src/HitboxHooks.s",
+					"shell_cmd": "make -j4 src/HitboxHooks.s",
+				},
+				{
+					"name": "src/HitboxNode.o",
+					"shell_cmd": "make -j4 src/HitboxNode.o",
+				},
+				{
+					"name": "src/HitboxNode.i",
+					"shell_cmd": "make -j4 src/HitboxNode.i",
+				},
+				{
+					"name": "src/HitboxNode.s",
+					"shell_cmd": "make -j4 src/HitboxNode.s",
+				},
+				{
+					"name": "src/HitboxSettings.o",
+					"shell_cmd": "make -j4 src/HitboxSettings.o",
+				},
+				{
+					"name": "src/HitboxSettings.i",
+					"shell_cmd": "make -j4 src/HitboxSettings.i",
+				},
+				{
+					"name": "src/HitboxSettings.s",
+					"shell_cmd": "make -j4 src/HitboxSettings.s",
+				},
+				{
+					"name": "src/main.o",
+					"shell_cmd": "make -j4 src/main.o"
+				},
+				{
+					"name": "src/main.i",
+					"shell_cmd": "make -j4 src/main.i"
+				},
+				{
+					"name": "src/main.s",
+					"shell_cmd": "make -j4 src/main.s"
+				},
+			],
+			"working_dir": "${project_path}/build",
+		},
+	],
+	"folders":
+	[
+		{
+			"path": ".",
+		},
+	],
+	"settings":
+	{
+		"cmake":
+		{
+			"build_folder": "${project_path}/build",
+		},
+	},
+}

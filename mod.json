@@ -1,0 +1,15 @@
+{
+  "geode": "v0.1.0",
+  "version": "v1.0.0",
+  "id": "com.alk.hitboxvisualizer",
+  "name": "HitboxVisualizer",
+  "developer": "alk",
+  "description": "Hitbox visualizer by alk1m123",
+  "binary": "HitboxVisualizer",
+  "dependencies": [
+    {
+      "id": "com.geode.api",
+      "required": false
+    }
+  ]
+}
