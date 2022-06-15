@@ -102,14 +102,15 @@ class $modify(HitboxLevelEditorLayer, LevelEditorLayer) {
 		s_noLimitTrail = GameManager::sharedState()->getGameVariable("2390");
 		return ret;
 	}
-	void checkCollisions(PlayerObject* player, float uhh) {
-		LevelEditorLayer::checkCollisions(player, uhh);
+	bool checkCollisions(PlayerObject* player, float uhh) {
+		auto ret = LevelEditorLayer::checkCollisions(player, uhh);
 		if (player == m_player1) {
 			drawer->addToPlayer1Queue(m_player1->getObjectRect());
 		}
 		if (player == m_player2) {
 			drawer->addToPlayer2Queue(m_player2->getObjectRect());
 		}
+		return ret;
 	}
 	void onPlaytest() {
 		LevelEditorLayer::onPlaytest();
